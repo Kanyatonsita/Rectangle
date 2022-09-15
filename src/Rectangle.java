@@ -32,19 +32,16 @@ public class Rectangle {
         this.height = height;
     }
 
+
+
     //en instansmetod calculateArea som returnerar en double med rektangelns area
     public double calculateArea(double width, double height){
-       this.width = width;
-       this.height = height;
-       return width*height;
+        return width * height;
     }
 
-
     //en instansmetod calculatePerimeter som returnerar en double med rektangelns omkrets.
-    public  double calculatePerimeter(){
-        this.width = width;
-        this.height = height;
-        return (width + height * 2);
+    public double calculatePerimeter(double width, double height){
+        return width + width + height + height;
     }
 
     //en instansmetod setXY som låter dig sätta instansvariablerna x och y.
@@ -53,13 +50,12 @@ public class Rectangle {
         this.y = y;
     }
 
-//två instansmetoder setWidth och setHeight som låter dig sätta motsvarande instansvariabler.
 
-    public void setWidth(int width) {
+
+//två instansmetoder setWidth och setHeight som låter dig sätta motsvarande instansvariabler.
+     public void setWidth(int width) {
         this.width = width;
     }
-
-
     public void setHeight(int height) {
         this.height = height;
     }
